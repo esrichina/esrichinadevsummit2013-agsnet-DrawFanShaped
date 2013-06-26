@@ -1,0 +1,20 @@
+﻿<ESRI.Configuration xmlns="http://schemas.esri.com/Desktop/AddIns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Name>DrawFanShaped</Name>
+  <AddInID>{f123e57c-f43a-476a-b1ee-1129c0e84927}</AddInID>
+  <Description>DrawFanShaped in the activeview</Description>
+  <Version>1.0</Version>
+  <Image>Images\DrawFanShaped.png</Image>
+  <Author>ZhuXY</Author>
+  <Company>Esri</Company>
+  <Date>2013-5-24</Date>
+  <Targets>
+    <Target name="Desktop" version="10.1" />
+  </Targets>
+  <AddIn language="CLR4.0" library="DrawFanShaped.dll" namespace="DrawFanShaped">
+    <ArcMap>
+      <Commands>
+        <Tool id="Esri_DrawFanShaped_DrawFanShaoped" class="DrawFanShaoped" message="Draw FanShaoped in the activeview." caption="Draw FanShaoped" tip="Draw FanShaoped in the activeview." category="Add-In Controls" image="Images\DrawFanShaoped.png" />
+      </Commands>
+    </ArcMap>
+  </AddIn>
+</ESRI.Configuration>
